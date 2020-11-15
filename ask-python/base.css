@@ -1,0 +1,125 @@
+.pic-header{
+    display: flex;
+}
+.search-bar{
+    color: blanchedalmond;
+    width: 30%;
+    margin-left: 37%;
+}
+.blue-sqaure{
+    background-color: #245076;
+    
+}
+.mid-content{
+    display: flex;
+    margin-top: 3%;
+}
+.top-list{
+    margin-right: 12%;
+    text-align: center;
+    margin-left: 100px;
+    color: white;
+    font-size: 24px;
+}
+.two-sections{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.nav-bar-actual{
+    background-color:#477EAD ;
+    color: #E5EDF3;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    height: 55px;
+    padding-top: 1%;
+    width: 80%;
+    margin-left: 9%;
+    border-radius: 5%;
+
+}
+.a-tag{
+    margin: 4%;
+
+}
+.right-dive-container{
+    width: 600px;
+    margin-left: 25%;
+    text-align: center;
+}
+.form-header{
+    margin-left: 65%;
+    margin-top: 2%;
+    height: 15%;
+}
+.go-form{
+    margin-left: 23%;
+    padding-top: 5%;
+}
+
+.formed{
+    background-color: #444444;
+    height: 40%;
+    width: 60%;
+    margin-left: 35%;
+    margin-top: 15px;
+    border-radius: 5%;
+}
+#form-text-bar{
+    height: 35px;
+    width: 200px;
+    margin-bottom: 100px;
+    margin-left: -25px;
+}
+#go-button{
+    height: 45px;
+    border-radius: 20%;
+    background-color: #245076;
+}
+.anchors-form{
+    color: yellow;
+    border-bottom: solid 1px ;
+}
+#second-p{
+    color: yellow;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 18px;
+}
+.left-sub-cont{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.right-sub-cont{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.head-sub-cont{
+    text-align: center;
+    border-top: solid 3px  teal;
+    width: 55%;
+}
+.h-tag{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+#copy-right{
+    text-align: center;
+}
+.footer-tag{
+    background-color: #2C6393;
+    color: #6DA0CE;
+}
+.blue-ul{
+    color: teal;
+}
+#first-p{
+    color: white;
+}
+#third-p{
+    color: white;
+}

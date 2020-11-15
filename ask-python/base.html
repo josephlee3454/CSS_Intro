@@ -7,38 +7,33 @@
     <link rel="stylesheet" href="base.css">
 </head>
 <body>
+    <section class="blue-sqaure">
     <header class="pic-header">
-    <img src="python(3).png" alt=""> 
+    <img id="python-pic" src="python (3).png" alt=""> 
     <div class="search-bar">
-
+        <header class="form-header">
+            Text Size: <a class="anchors-form"> Normal</a> | <a class="anchors-form">Large</a>
+        </header>
+        <div class="formed">
+            <form class="go-form">
+                <input type="text" id="form-text-bar" >
+                <button id="go-button">Go</button>
+            </form>
+        </div>
     </div> 
     </header>
-    <nav>
-        <a>About</a>
-        <a>Downloads</a>
-        <a>Documentation</a>
-        <a>Community</a>
-        <a>News</a>
-        <a>Events</a>
+    <nav class="nav-bar-actual">
+        <a class="a-tag">About</a>
+        <a class="a-tag">Downloads</a>
+        <a class="a-tag">Documentation</a>
+        <a class="a-tag">Community</a>
+        <a class="a-tag">News</a>
+        <a class="a-tag">Events</a>
     </nav>
-    <article>
-        <div>
-            <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing 
-            elit. Explicabo sed fuga repellat modi consequuntur
-             quasi temporibus officiis? Nemo autem perspiciatis 
-             fuga repellat eaque delectus 
-            laborum. Voluptate commodi quidem nam quos!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing 
-                elit. Ullam, qui sapiente ab, odio explicabo, 
-            </p>
-            <p>The zen of python </p>
-        </div>
-        <div>
-            <ul>
-                <li>Docs</li>
+    <article class ="mid-content">
+        <div class="top-list">
+            <ul class="unordered-list-selector">
+                <li> Docs</li>
                 <li>Audio/Visual Talks</li>
                 <li>Beginner's Guide</li>
                 <li>Developer's Guide</li>
@@ -47,11 +42,27 @@
                 <li>FAQ</li>
             </ul>
         </div>
+        <div class ="right-dive-container">
+            <p id = "first-p">
+            Lorem ipsum dolor sit amet consectetur, adipisicing 
+            elit. Explicabo sed fuga repellat modi consequuntur
+             quasi temporibus officiis? Nemo autem perspiciatis 
+             fuga repellat eaque delectus 
+            laborum. Voluptate commodi quidem nam quos! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat eaque perspiciatis in soluta nostrum excepturi accusamus, numquam sunt labore ut iure consequuntur dolores necessitatibus consequatur eum modi illo dolore similique.
+            </p>
+            <p  id = "second-p">
+                Lorem ipsum dolor sit amet consectetur, adipisicing 
+                elit. Ullam, qui sapiente ab, odio explicabo,Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis repellendus, debitis pariatur obcaecati praesentium sed voluptate nulla sint quae eius dignissimos ex quisq
+            </p>
+            <p id = "third-p">The zen of python </p>
+        </div>
+   
     </article>
-    <article>
-        <div>
+   </section>
+    <article class="two-sections">
+        <div class="left-sub-cont">
             <header>
-                <h3></h3>
+                <h3 class="head-sub-cont">Gettiing Started</h3>
             </header>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing 
@@ -60,15 +71,15 @@
                 fuga iure necessitatibus, distinctio perspiciatis \
                 dolores voluptatum, eos exercitationem modi maxime?
             </p>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="blue-ul">
+                <li>Beginner's Guide, Programmers</li>
+                <li>Beginner's Guide, Non-Programmers</li>
+                <li>Code sample and snippets for Beginners</li>
             </ul>
         </div>
-        <div>
+        <div class = "right-sub-cont">
             <header>
-                <h3></h3>
+                <h3 class="head-sub-cont">Applications</h3>
             </header>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing 
@@ -77,18 +88,24 @@
                 fuga iure necessitatibus, distinctio perspiciatis \
                 dolores voluptatum, eos exercitationem modi maxime?
             </p>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="blue-ul">
+                <li>Web and internet Development</li>
+                <li>Database Access</li>
+                <li>Desktop GUIs</li>
+                <li>Network Programming</li>
+                <li>Software and Game Development</li>
             </ul>
         </div>
     </article>
-    <footer>
-        <h3></h3>
-        <h3></h3>
-        <h3></h3>
-    <footer></footer>
+    <footer class="footer-tag">
+        <div class="h-tag">
+            <h3>Help and General Contact</h3>
+            <h3>Diversity Initiatives</h3>
+            <h3>Submit Website Bugs</h3>
+        </div>
+        <footer id="copy-right">
+            Copyright c2001-2016.
+        </footer>
     </footer>
 
 </body>
